@@ -41,13 +41,12 @@ const HomeSection1 = ({ current, setCurrent }) => {
     >
       <ConstraintedBox classNames="p-4 pb-16 pt-8 sm:pt-16">
         <WrappedBox classes="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center md:justify-items-stretch">
-          <Row classes="w-[15rem] h-[15rem] md:w-[20rem] md:h-[20rem] lg:w-[25rem] lg:h-[25rem] pointer-events-none justify-self-center md:justify-self-end items-center justify-center rounded-full bg-transparent border-2 border-[var(--primaryColor60)] aspect-square overflow-hidden order-1 md:order-2 my-auto mr-20">
+          <Row classes="ml-[15px] lg:ml-[0px] w-[15rem] h-[15rem] md:w-[20rem] md:h-[20rem] lg:w-[25rem] lg:h-[25rem] pointer-events-none justify-self-center md:justify-self-end items-center justify-center rounded-full bg-transparent border-2 border-[var(--primaryColor60)] aspect-square overflow-hidden order-1 md:order-2 my-auto mr-20">
             <Row classes="w-full h-auto items-center justify-center rounded-full bg-transparent border-[0.8rem] border-[var(--primaryColor30)] aspect-square overflow-hidden pointer-events-none">
               <Image
                 src={About.avatarUrl}
                 alt="profile"
                 width={400}
-
                 height={400}
                 sizes="100%"
                 priority

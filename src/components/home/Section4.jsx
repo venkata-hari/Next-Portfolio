@@ -33,12 +33,12 @@ const HomeSection4 = ({ current, setCurrent }) => {
           Technologies <span className="text-[var(--primaryColor)]">I Use</span>
         </h2>
 
-        <WrappedBox classes="justify-items-center grid-cols-2 sm:grid-cols-6 mt-9">
+        <WrappedBox classes="justify-items-center grid-cols-2 md:grid-cols-2 lg:grid-cols-6 mt-9">
           {skills.map((service, index) => {
             return (
               <Column
                 key={`skill-${index}`}
-                classes="bg-[var(--textColor10)] p-4 px-8 rounded-[var(--borderRadius)] items-center text-center min-w-[10rem]"
+                classes="bg-[var(--textColor10)] p-4 px-8 rounded-[var(--borderRadius)] items-center text-center min-w-[8rem] lg:min-w-[10rem]"
               >
                 <Image
                   src={service.icon}
