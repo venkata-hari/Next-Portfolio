@@ -2,7 +2,7 @@
 const path = require("path");
 
 const nextConfig = {
-  output:'export',
+  distDir: 'build',
   reactStrictMode: true,
   swcMinify: true,
   sassOptions: {
