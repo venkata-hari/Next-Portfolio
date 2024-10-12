@@ -31,7 +31,7 @@ const projects = [
   { id:5,
     title: 'Food Delivery',
     description: "Developed and implemented role-based APIs for Admin, Customer, and Restaurant functionalities,ensuring secure and efficient interactions within the application",
-    image: '/screenshot/fooddelivery.png',
+    image:'/screenshot/Fooddelivery.png',
     tags: ["NodeJS", "Firebase", "NodeMailer","RazorPay","MongoDp"],
     url: 'https://www.extwebtech.com/portfolio/',
   },

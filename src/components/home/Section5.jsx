@@ -42,7 +42,6 @@ const HomeSection5 = ({ current, setCurrent }) => {
                <Link href={project.url} target="_blank" rel="noopener noreferrer">
             <Image
               src={project.image}
-              alt={`screenshot-${project.title}`}
                width={700}
                height={400}
               className="rounded-lg"
