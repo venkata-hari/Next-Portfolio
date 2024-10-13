@@ -74,7 +74,6 @@ const MenuItems = (props) => {
       ) : (
         <button
           type="button"
-          className={current === items.section ? `selected` : ""}
           onClick={() => handleClick(items.path)}
         >
           <p>{items.title}</p>

@@ -62,8 +62,6 @@ const HomeSection5 = ({ current, setCurrent }) => {
           ))}
         </Row>
 </Column>
-
-                {/* <h5 className="font-bold mt-4">{service.title}</h5> */}
               </Column>
             );
           })}
